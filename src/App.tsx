@@ -1,4 +1,4 @@
-import {HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import LongTerm from "./components/studyingMethods/LongTerm";
 import VisualLearner from "./components/VisualLearner";
@@ -12,20 +12,19 @@ import theme from "./theme/theme";
 import { ThemeProvider } from "@emotion/react";
 import ScrollTop from "./components/ScrollTop";
 
-
 function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
         <HashRouter>
-        <ScrollTop/>
+          <ScrollTop />
           <DrawerAppBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="studying-space" element={<StudyingSpace />} />
+            <Route path="/studying-space" element={<StudyingSpace />} />
             <Route path="/long-term" element={<LongTerm />} />
             <Route
-              path="/edukacyjne_rew/deeper-understanding"
+              path="/deeper-understanding"
               element={<DeeperUnderstanding />}
             />
             <Route path="/last-minute" element={<LastMinute />} />
@@ -34,7 +33,6 @@ function App() {
             <Route path="/visual-learner" element={<VisualLearner />} />
           </Routes>
         </HashRouter>
-
       </ThemeProvider>
     </>
   );

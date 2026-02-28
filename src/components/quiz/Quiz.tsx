@@ -49,7 +49,7 @@ function Quiz() {
   useEffect(() => {
     const fetchQuestions = async () => {
       setLoading(true);
-      fetch("/edukacyjne_rew/data/Questions.json")
+      fetch("/edukacyjne_rew/data/Questions.json") //fetching rather than importing for future scaling purposes
         .then((res) => res.json())
         .then((data) => {
           setQuestions(data);
