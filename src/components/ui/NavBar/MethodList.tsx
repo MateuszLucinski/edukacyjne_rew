@@ -47,19 +47,19 @@ export default function MethodList() {
         onClose={handleClose}
         sx={{}}
       >
-        <Link to="long-term" onClick={handleClose}>
+        <Link to="/edukacyjne_rew/long-term" onClick={handleClose}>
           <MenuItem>NAUKA DŁUGOTERMINOWA</MenuItem>
         </Link><hr/>
-        <Link to="deeper-understanding" onClick={handleClose}>
+        <Link to="/edukacyjne_rew/deeper-understanding" onClick={handleClose}>
           <MenuItem>METODY POGŁĘBIAJĄCE ZROZUMIENIE</MenuItem>
         </Link><hr/>
-        <Link to="last-minute" onClick={handleClose}>
+        <Link to="/edukacyjne_rew/last-minute" onClick={handleClose}>
           <MenuItem>NAUKA „NA OSTATNIĄ CHWILĘ”</MenuItem>
         </Link><hr/>
-        <Link to="meantime" onClick={handleClose}>
+        <Link to="/edukacyjne_rew/meantime" onClick={handleClose}>
           <MenuItem>NAUKA W MIĘDZYCZASIE</MenuItem>
         </Link><hr/>
-        <Link to="studying-heplers" onClick={handleClose}>
+        <Link to="/edukacyjne_rew/studying-heplers" onClick={handleClose}>
           <MenuItem>METODY WSPOMAGAJĄCE NAUKĘ</MenuItem>
         </Link>
       </Menu>
