@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "content": "Kiedy zazwyczaj zaczynasz naukę?",
+    "answers": [
+      { "answer": "Kilka tygodni do tygodnia przed terminem", "points": 1 },
+      { "answer": "Gdy chce coś dobrze zrozumieć", "points": 2 },
+      { "answer": "Dzień lub dwa przed terminem", "points": 3 },
+      { "answer": "Uczę się w krótkich chwilach w ciągu dnia", "points": 4 },
+      { "answer": "Uczę się tylko gdy mam plan", "points": 5 }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "Co jest dla ciebie największym problemem?",
+    "answers": [
+      { "answer": "Utrzymanie systematyczności", "points": 1 },
+      { "answer": "Zrozumienie niektórych tematów", "points": 2 },
+      { "answer": "Odkładanie nauki - mało czasu przed sprawdzianem", "points": 3 },
+      { "answer": "Brak ciągłego czasu na naukę", "points": 4 },
+      { "answer": "Brak motywacji, koncentracji", "points": 5 }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "Ile masz zwykle czasu na naukę?",
+    "answers": [
+      { "answer": "Regularnie po kilka godzin w tygodniu", "points": 1 },
+      { "answer": "Ograniczoną ilość, ale wystarczająco by zrozumieć temat", "points": 2 },
+      { "answer": "Bardzo mało czasu przed terminem", "points": 3 },
+      { "answer": "Więcej okienek czasowych ok. 20 minutowych niż czasu ciągłego", "points": 4 },
+      { "answer": "Mam czas, ale nie mam motywacji", "points": 5 }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "Jak uczysz się najczęściej?",
+    "answers": [
+      { "answer": "Rozkładam materiał w czasie", "points": 1 },
+      { "answer": "Analizuję, wizualizuję", "points": 2 },
+      { "answer": "Przeglądam najważniejsze informacje", "points": 3 },
+      { "answer": "Używam aplikacji do nauki", "points": 4 },
+      { "answer": "Korzystam z różnych technik takich jak pomodoro", "points": 5 }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Co cię frustruje?",
+    "answers": [
+      { "answer": "Zapominanie materiału po czasie", "points": 1 },
+      { "answer": "Brak zrozumienia", "points": 2 },
+      { "answer": "Presja czasu", "points": 3 },
+      { "answer": "Chaotyczny plan dnia", "points": 4 },
+      { "answer": "Brak efektywności", "points": 5 }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "Jak przygotowujesz się na duży egzamin?",
+    "answers": [
+      { "answer": "Planuję harmonogram", "points": 1 },
+      { "answer": "Staram się zrozumieć krok po kroku", "points": 2 },
+      { "answer": "Robię szybkie powtórki", "points": 3 },
+      { "answer": "Uczę się w każdej wolnej chwili", "points": 4 },
+      { "answer": "Szukam najlepszej techniki", "points": 5 }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "Na czym zależy ci najbardziej?",
+    "answers": [
+      { "answer": "Na trwałej wiedzy", "points": 1 },
+      { "answer": "Na poszerzeniu materiału", "points": 2 },
+      { "answer": "Na zaliczeniu w krótkim czasie", "points": 3 },
+      { "answer": "Na wykorzystaniu czasu", "points": 4 },
+      { "answer": "Na lepszej koncentracji", "points": 5 }
+    ]
+  },
+  {
+    "id": 8,
+    "content": "Jak robisz notatki?",
+    "answers": [
+      { "answer": "Dokładnie i systematycznie", "points": 1 },
+      { "answer": "Przekształcam w schematy, rysunki", "points": 2 },
+      { "answer": "Spisuję tylko najważniejsze informacje", "points": 3 },
+      { "answer": "Robię krótkie notatki w międzyczasie na telefonie", "points": 4 },
+      { "answer": "Korzystam z aplikacji, które robią to za mnie", "points": 5 }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "Co brzmi dla ciebie najlepiej?",
+    "answers": [
+      { "answer": "Długoterminowy plan nauki", "points": 1 },
+      { "answer": "Głębokie zrozumienie", "points": 2 },
+      { "answer": "48h przed testem", "points": 3 },
+      { "answer": "Krótka nauka codziennie", "points": 4 },
+      { "answer": "Narzędzia zwiększające skupienie", "points": 5 }
+    ]
+  },
+  {
+    "id": 10,
+    "content": "Jak zapamiętujesz najlepiej?",
+    "answers": [
+      { "answer": "Przez systematyczne powtórki", "points": 1 },
+      { "answer": "Przez naukę z kimś lub tłumaczenie komuś", "points": 2 },
+      { "answer": "Przez intensywną naukę", "points": 3 },
+      { "answer": "Przez częste, ale krótkie sesje", "points": 4 },
+      { "answer": "Z pomocą technik pamięciowych", "points": 5 }
+    ]
+  },
+  {
+    "id": 11,
+    "content": "Co jest twoją słabą stroną?",
+    "answers": [
+      { "answer": "Odkładanie mimo planu", "points": 1 },
+      { "answer": "Powierzchowne rozumienie", "points": 2 },
+      { "answer": "Odkładanie do ostatniej chwili", "points": 3 },
+      { "answer": "Brak czasu", "points": 4 },
+      { "answer": "Rozproszenie", "points": 5 }
+    ]
+  },
+  {
+    "id": 12,
+    "content": "(w kontekście nauki) Gdy mam wolny wieczór:",
+    "answers": [
+      { "answer": "Realizuję plan nauki", "points": 1 },
+      { "answer": "Analizuję zagadnienia", "points": 2 },
+      { "answer": "Odpoczywam, odkładam naukę na później", "points": 3 },
+      { "answer": "Uczę się chwilę w przerwach od innych rzeczy", "points": 4 },
+      { "answer": "Nie uczę się", "points": 5 }
+    ]
+  },
+  {
+    "id": 13,
+    "content": "Co daje ci satysfakcję?",
+    "answers": [
+      { "answer": "Widoczny progres", "points": 1 },
+      { "answer": "Moment zrozumienia", "points": 2 },
+      { "answer": "Zdany egzamin", "points": 3 },
+      { "answer": "Produktywnie wykorzystany czas", "points": 4 },
+      { "answer": "Skuteczność", "points": 5 }
+    ]
+  },
+  {
+    "id": 14,
+    "content": "Jaki jest twój cel?",
+    "answers": [
+      { "answer": "Stabilny rozwój", "points": 1 },
+      { "answer": "Rozumienie materiału", "points": 2 },
+      { "answer": "Szybkie efekty", "points": 3 },
+      { "answer": "Elastyczna nauka", "points": 4 },
+      { "answer": "Efektywność", "points": 5 }
+    ]
+  }
+]
