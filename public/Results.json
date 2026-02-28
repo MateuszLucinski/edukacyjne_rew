@@ -1,0 +1,11 @@
+[
+  { "id": 0, "result": "Nauka długoterminowa", "link": "long-term" },
+  {
+    "id": 1,
+    "result": "Metody pogłębiające zrozumienie",
+    "link": "deeper-understanding"
+  },
+  { "id": 2, "result": "Nauka na ostatnią chwilę", "link": "last-minute" },
+  { "id": 3, "result": "Nauka w międzyczasie", "link": "meantime" },
+  { "id": 4, "result": "Metody wspomagające naukę", "link": "studying-heplers" }
+]
