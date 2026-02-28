@@ -32,7 +32,7 @@ function NavBar() {
   const darwerLinks = [
     {
       text: "STRONA GŁÓWNA",
-      link: "",
+      link: "/",
     },
     {
       text: "OTOCZENIE DO NAUKI",
