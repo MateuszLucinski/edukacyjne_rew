@@ -21,17 +21,17 @@ function App() {
         <ScrollTop/>
           <DrawerAppBar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/studying-space" element={<StudyingSpace />} />
-            <Route path="/long-term" element={<LongTerm />} />
+            <Route path="/edukacyjne_rew" element={<Home />} />
+            <Route path="/edukacyjne_rew/studying-space" element={<StudyingSpace />} />
+            <Route path="/edukacyjne_rew/long-term" element={<LongTerm />} />
             <Route
-              path="/deeper-understanding"
+              path="/edukacyjne_rew/deeper-understanding"
               element={<DeeperUnderstanding />}
             />
-            <Route path="/last-minute" element={<LastMinute />} />
-            <Route path="/meantime" element={<Meantime />} />
-            <Route path="/studying-heplers" element={<StudyingHelpers />} />
-            <Route path="/visual-learner" element={<VisualLearner />} />
+            <Route path="/edukacyjne_rew/last-minute" element={<LastMinute />} />
+            <Route path="/edukacyjne_rew/meantime" element={<Meantime />} />
+            <Route path="/edukacyjne_rew/studying-heplers" element={<StudyingHelpers />} />
+            <Route path="/edukacyjne_rew/visual-learner" element={<VisualLearner />} />
           </Routes>
         </BrowserRouter>
 
