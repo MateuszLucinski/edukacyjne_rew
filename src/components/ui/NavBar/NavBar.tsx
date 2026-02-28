@@ -81,7 +81,7 @@ function NavBar() {
 
           {!isMobile && (
             <>
-              <Link to="edukacyjne_rew">
+              <Link to="/">
                 <Button color="inherit">Strona główna</Button>
               </Link>
               <Link to="studying-space">

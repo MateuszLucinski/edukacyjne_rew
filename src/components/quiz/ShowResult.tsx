@@ -5,6 +5,8 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import theme from "../../theme/theme";
 
+import CatLoading from "../../assets/images/Ui/cat_loading.webp"
+
 function ShowResult({ points }: { points: number }) {
   const [loading, setLoading] = useState<boolean>(false);
   const [reuslts, setResults] = useState<Result[]>([]);
@@ -12,7 +14,7 @@ function ShowResult({ points }: { points: number }) {
   useEffect(() => {
     const getResult = async () => {
       setLoading(true);
-      fetch("/Results.json")
+      fetch("../../assets/data/Results.json")
         .then((res) => res.json())
         .then((data) => {
           setResults(data);
@@ -30,7 +32,7 @@ function ShowResult({ points }: { points: number }) {
   if (points >= 58) answer = 4;
 
   if (loading) {
-    return <Icon src="/cat_loading.webp" alt="Here is a cat while we load your result :3" sx={{height:'14rem'}}/>;
+    return <Icon src={CatLoading} alt="Here is a cat while we load your result :3" sx={{height:'14rem'}}/>;
   }
   return (
     <Box padding={"3rem"}>

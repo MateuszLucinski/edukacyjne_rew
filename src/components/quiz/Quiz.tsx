@@ -13,6 +13,8 @@ import {
 import theme from "../../theme/theme";
 import React from "react";
 
+import CatLoading from "../../assets/images/Ui/cat_loading.webp";
+
 function Quiz() {
   const [isFinished, setIsFinished] = useState<boolean>(false);
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -47,7 +49,7 @@ function Quiz() {
   useEffect(() => {
     const fetchQuestions = async () => {
       setLoading(true);
-      fetch("/Questions.json")
+      fetch("/edukacyjne_rew/data/Questions.json")
         .then((res) => res.json())
         .then((data) => {
           setQuestions(data);
@@ -63,9 +65,9 @@ function Quiz() {
   if (loading) {
     return (
       <Icon
-        src="/cat_loading.webp"
+        src={CatLoading}
         alt="Here is a cat while we load your questions :3"
-        sx={{height:"14rem"}}
+        sx={{ height: "14rem" }}
       />
     );
   }
