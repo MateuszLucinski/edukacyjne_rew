@@ -14,7 +14,7 @@ import LastMinuteBackground from "../../assets/images/LastMinute/LastMinute.jpg"
 import Blurting from "../../assets/images/LastMinute/Blurting.jpg"
 import Cheatsheets from "../../assets/images/LastMinute/Cheatsheets.png"
 import HighYeald from "../../assets/images/LastMinute/HighYeld.jpg"
-import TurboReecall from "../../assets/images/TurboRecall.jpg"
+import TurboReecall from "../../assets/images/LastMinute/TurboRecall.jpg"
 
 
 function LastMinute() {
