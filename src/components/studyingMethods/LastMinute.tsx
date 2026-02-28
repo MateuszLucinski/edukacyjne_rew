@@ -10,11 +10,18 @@ import ImageItem from "../ui/ImageItem";
 import EmptySpace from "../ui/EmtpySpace";
 import MethodCards from "./MethodCards";
 
+import LastMinuteBackground from "../../assets/images/LastMinute/LastMinute.jpg"
+import Blurting from "../../assets/images/LastMinute/Blurting.jpg"
+import Cheatsheets from "../../assets/images/LastMinute/Cheatsheets.png"
+import HighYeald from "../../assets/images/LastMinute/HighYeld.jpg"
+import TurboReecall from "../../assets/images/TurboRecall.jpg"
+
+
 function LastMinute() {
   return (
     <>
       <Header
-        image="/LastMinute.jpg"
+        image={LastMinuteBackground}
         title="NAUKA NA OSTATNIĄ CHWILĘ"
         subtitle="Ratunkowe strategie przed sprawdzianem"
       />
@@ -62,7 +69,7 @@ function LastMinute() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/TurboRecall.jpg" />
+                <ImageItem image={TurboReecall} />
               </FadeIn>
             </Grid>
 
@@ -77,7 +84,7 @@ function LastMinute() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Blurting.jpg" />
+                <ImageItem image={Blurting} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
@@ -141,7 +148,7 @@ function LastMinute() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/HighYeld.jpg" />
+                <ImageItem image={HighYeald} />
               </FadeIn>
             </Grid>
 
@@ -156,7 +163,7 @@ function LastMinute() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Cheatsheets.png" />
+                <ImageItem image={Cheatsheets} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>

@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import LongTerm from "./components/studyingMethods/LongTerm";
 import VisualLearner from "./components/VisualLearner";
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
+        <HashRouter>
         <ScrollTop/>
           <DrawerAppBar />
           <Routes>
@@ -33,7 +33,7 @@ function App() {
             <Route path="/edukacyjne_rew/studying-heplers" element={<StudyingHelpers />} />
             <Route path="/edukacyjne_rew/visual-learner" element={<VisualLearner />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
       </ThemeProvider>
     </>

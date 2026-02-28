@@ -10,10 +10,15 @@ import ImageItem from "../ui/ImageItem";
 import EmptySpace from "../ui/EmtpySpace";
 import MethodCards from "./MethodCards";
 
+import LongTermBackground from "../../assets/images/LongTerm/LongTermBackground.jpg"
+import ActiveRecall from "../../assets/images/LongTerm/ActiveRecall.jpg"
+import SpacedRepetition from "../../assets/images/LongTerm/SpacedRepetition.jpg"
+import Intervealing from "../../assets/images/LongTerm/Intervealing.jpg"
+
 function LongTerm() {
   return (
     <>
-      <Header image="/LongTermBackground.jpg" title="NAUKA DŁUGOTERMINOWA" subtitle="Zapamiętuj na lata, nie na dni" />
+      <Header image={LongTermBackground} title="NAUKA DŁUGOTERMINOWA" subtitle="Zapamiętuj na lata, nie na dni" />
       <MainBox>
         <Container
           id="main"
@@ -94,7 +99,7 @@ function LongTerm() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/ActiveRecall.jpg" />
+                <ImageItem image={ActiveRecall} />
               </FadeIn>
             </Grid>
 
@@ -109,7 +114,7 @@ function LongTerm() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/SpacedRepetition.jpg" />
+                <ImageItem image={SpacedRepetition} />
               </FadeIn>
             </Grid>
 
@@ -201,7 +206,7 @@ function LongTerm() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Intervealing.jpg" />
+                <ImageItem image={Intervealing} />
               </FadeIn>
             </Grid>
 

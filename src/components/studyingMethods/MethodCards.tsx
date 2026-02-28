@@ -12,31 +12,31 @@ function MethodCards({ skip }: { skip?: number }) {
       id: 0,
       text: "NAUKA DŁUGOTERMINOWA",
       link: "/edukacyjne_rew/long-term",
-      image: { LongTermBackground },
+      image: LongTermBackground ,
     },
     {
       id: 1,
       text: "METODY POGŁĘBIAJĄCE ZROZUMIENIE",
       link: "/edukacyjne_rew/deeper-understanding",
-      image: { CalculatorNotebook },
+      image: CalculatorNotebook ,
     },
     {
       id: 2,
       text: "NAUKA „NA OSTATNIĄ CHWILĘ”",
       link: "/edukacyjne_rew/last-minute",
-      image: { LastMinute },
+      image: LastMinute,
     },
     {
       id: 3,
       text: "NAUKA W MIĘDZYCZASIE",
       link: "/edukacyjne_rew/meantime",
-      image: {Meantime},
+      image: Meantime,
     },
     {
       id: 4,
       text: "METODY WSPOMAGAJĄCE NAUKĘ",
       link: "/edukacyjne_rew/studying-heplers",
-      image: {LotsOfBooks},
+      image: LotsOfBooks,
     },
   ];
 

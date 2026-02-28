@@ -10,11 +10,17 @@ import ImageItem from "../ui/ImageItem";
 import EmptySpace from "../ui/EmtpySpace";
 import MethodCards from "./MethodCards";
 
+import MeantimeaHeaderBackground from "../../assets/images/Meantime/Meantime.jpg"
+import Train from "../../assets/images/Meantime/Train.jpg"
+import FlashCards from "../../assets/images/Meantime/Flashcards.jpg"
+import TestQuestions from "../../assets/images/Meantime/TestQuestions.jpg"
+
+
 function Meantime() {
   return (
     <>
       <Header
-        image="/Meantime.jpg"
+        image={MeantimeaHeaderBackground}
         title="NAUKA W MIĘDZYCZASIE"
         subtitle="Wykorzystaj krótkie chwile maksymalnie"
       />
@@ -44,7 +50,7 @@ function Meantime() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Train.jpg" />
+                <ImageItem image={Train} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
@@ -125,7 +131,7 @@ function Meantime() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Flashcards.jpg" />
+                <ImageItem image={FlashCards} />
               </FadeIn>
             </Grid>
 
@@ -142,7 +148,7 @@ function Meantime() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/TestQuestions.jpg" />
+                <ImageItem image={TestQuestions} />
               </FadeIn>
             </Grid>
 

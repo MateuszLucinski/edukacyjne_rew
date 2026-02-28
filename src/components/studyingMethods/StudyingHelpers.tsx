@@ -10,10 +10,16 @@ import ImageItem from "../ui/ImageItem";
 import EmptySpace from "../ui/EmtpySpace";
 import MethodCards from "./MethodCards";
 
+import LotsOfBooks from "../../assets/images/StudyingHelpers/LotsOfBooks.jpg"
+import PomodoroClock from "../../assets/images/StudyingHelpers/PomodoroClock.jpg"
+import Mnemo from "../../assets/images/StudyingHelpers/Mnemo.jpg"
+import Teaching from "../../assets/images/StudyingHelpers/Teaching.jpg"
+import Climbing from "../../assets/images/StudyingHelpers/Climbing.jpg"
+
 function StudyingHelpers() {
   return (
     <>
-      <Header image="/LotsOfBooks.jpg" title="METODY WSPOMAGAJĄCE NAUKĘ" subtitle="Techniki, które zwiększają efektywność"/>
+      <Header image={LotsOfBooks} title="METODY WSPOMAGAJĄCE NAUKĘ" subtitle="Techniki, które zwiększają efektywność"/>
       <MainBox>
         <Container
           id="main"
@@ -69,7 +75,7 @@ function StudyingHelpers() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/PomodoroClock.jpg" />
+                <ImageItem image={PomodoroClock} />
               </FadeIn>
             </Grid>
 
@@ -84,7 +90,7 @@ function StudyingHelpers() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Teaching.jpg" />
+                <ImageItem image={Teaching}/>
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
@@ -146,7 +152,7 @@ function StudyingHelpers() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Mnemo.jpg" />
+                <ImageItem image={Mnemo} />
               </FadeIn>
             </Grid>
 
@@ -163,7 +169,7 @@ function StudyingHelpers() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Climbing.jpg" />
+                <ImageItem image={Climbing} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
