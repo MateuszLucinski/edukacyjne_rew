@@ -1,41 +1,46 @@
 import { Button, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
+import LongTermBackground from "../../assets/images/LongTerm/LongTermBackground.jpg";
+import CalculatorNotebook from "../../assets/images/DeeperUnderstanding/CalculatorNotebook.jpg";
+import LastMinute from "../../assets/images/LastMinute/LastMinute.jpg";
+import Meantime from "../../assets/images/Meantime/Meantime.jpg";
+import LotsOfBooks from "../../assets/images/StudyingHelpers/LotsOfBooks.jpg"
 
-function MethodCards({skip}: {skip?: number}) {
+function MethodCards({ skip }: { skip?: number }) {
   const initialMethods = [
     {
       id: 0,
       text: "NAUKA DŁUGOTERMINOWA",
       link: "/edukacyjne_rew/long-term",
-      image: "/LongTermBackground.jpg",
+      image: { LongTermBackground },
     },
     {
       id: 1,
       text: "METODY POGŁĘBIAJĄCE ZROZUMIENIE",
       link: "/edukacyjne_rew/deeper-understanding",
-      image: "/CalculatorNotebook.jpg",
+      image: { CalculatorNotebook },
     },
     {
       id: 2,
-      text:"NAUKA „NA OSTATNIĄ CHWILĘ”",
+      text: "NAUKA „NA OSTATNIĄ CHWILĘ”",
       link: "/edukacyjne_rew/last-minute",
-      image: "/LastMinute.jpg",
+      image: { LastMinute },
     },
     {
       id: 3,
       text: "NAUKA W MIĘDZYCZASIE",
       link: "/edukacyjne_rew/meantime",
-      image: "/Meantime.jpg",
+      image: {Meantime},
     },
     {
       id: 4,
       text: "METODY WSPOMAGAJĄCE NAUKĘ",
       link: "/edukacyjne_rew/studying-heplers",
-      image: "/LotsOfBooks.jpg",
+      image: {LotsOfBooks},
     },
   ];
 
-  const methods = initialMethods.filter(method=>method.id!=skip);
+  const methods = initialMethods.filter((method) => method.id != skip);
 
   return (
     <>
@@ -56,11 +61,11 @@ function MethodCards({skip}: {skip?: number}) {
                   height: "100%",
                   width: "100%",
                   minHeight: "20vh",
-                  position: "relative", 
-                  overflow: "hidden", 
+                  position: "relative",
+                  overflow: "hidden",
                   fontSize: "1rem",
                   color: "white",
-                  zIndex:0,
+                  zIndex: 0,
 
                   "&::before": {
                     content: '""',
@@ -71,9 +76,9 @@ function MethodCards({skip}: {skip?: number}) {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     backgroundPosition: "center center",
-                    transition: "transform 0.5s", 
+                    transition: "transform 0.5s",
                     transform: "scale(1.15)",
-                    zIndex:-1,
+                    zIndex: -1,
                   },
 
                   "&:hover::before": {

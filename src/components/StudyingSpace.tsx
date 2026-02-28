@@ -6,11 +6,14 @@ import { Item } from "./ui/Item";
 import ImageItem from "./ui/ImageItem";
 import EmptySpace from "./ui/EmtpySpace";
 import Footer from "./ui/Footer";
+import MessyDesk from "../assets/images/StudyingSpace/MessyDesk.jpg";
+import LitRoom from "../assets/images/StudyingSpace/LitRoom.jpg";
+import HeadPhoneStudy from "../assets/images/StudyingSpace/HeadphoneStudy.jpg";
 
 function StudyingSpace() {
   return (
     <>
-      <Header image="/MessyDesk.jpg" title="OTOCZENIE DO NAUKI" subtitle="Stwórz przestrzeń, która wspiera koncentrację" />
+      <Header image={MessyDesk} title="OTOCZENIE DO NAUKI" subtitle="Stwórz przestrzeń, która wspiera koncentrację" />
       <MainBox>
         <Container
           id="main"
@@ -88,7 +91,7 @@ function StudyingSpace() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/LitRoom.jpg" />
+                <ImageItem image={LitRoom} />
               </FadeIn>
             </Grid>
 
@@ -96,7 +99,7 @@ function StudyingSpace() {
 
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/HeadphoneStudy.jpg" />
+                <ImageItem image={HeadPhoneStudy} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>

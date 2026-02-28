@@ -69,7 +69,7 @@ function NavBar() {
       <AppBar position="fixed" color="secondary">
         <Toolbar sx={{ gap: 2 }}>
           <Icon src={web_logo} alt="Our website logo" />
-          <Typography variant="h5" sx={{ flexGrow: 1 }}>
+          <Typography  sx={{ flexGrow: 1 ,typography: { xs: "h6", md: "h5" }}}>
             Edukacyjne rewolucje
           </Typography>
 

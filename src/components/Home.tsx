@@ -7,11 +7,13 @@ import Header from "./ui/HeaderBox";
 import MainBox from "./ui/MainBox";
 import Footer from "./ui/Footer";
 import FadeIn from "./ui/FadeIn";
+import HomeHeader from "../assets/images/Home/HomeHeaderBackground.jpg"
+import InstagramLogo from "../assets/images/Ui/instagram_icon.png"
 
 function Home() {
   return (
     <>
-      <Header image="/HomeHeaderBackground.jpg" title="EDUKACYJNE REWOLUCJE" subtitle="Ucz się szybciej, mądrzej i skuteczniej" />
+      <Header image={HomeHeader} title="EDUKACYJNE REWOLUCJE" subtitle="Ucz się szybciej, mądrzej i skuteczniej" />
       <MainBox>
         <Container
           id="main"
@@ -65,7 +67,7 @@ function Home() {
                       }}
                     >
                       <Typography variant="h5">
-                        <Icon src="/instagram_icon.png" alt="Instagram Logo" />{" "}
+                        <Icon src={InstagramLogo} alt="Instagram Logo" />{" "}
                         ZAOBSERWUJ NAS
                       </Typography>
                     </Item>
