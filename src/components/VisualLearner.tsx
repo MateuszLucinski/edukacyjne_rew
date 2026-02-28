@@ -8,6 +8,10 @@ import FadeIn from "./ui/FadeIn";
 import ImageItem from "./ui/ImageItem";
 import EmptySpace from "./ui/EmtpySpace";
 
+import VisualLearning from "../assets/images/VisualLearner/VisualLearning.jpg"
+import AudioLearning from "../assets/images/VisualLearner/AudioLearner.jpg"
+import VisualDesk from "../assets/images/VisualLearner/VisualDesk.jpg"
+
 function VisualLearner() {
   const visualTraits = [
     { text: "LUBI CZYTAĆ, RYSOWAĆ, PISAĆ" },
@@ -25,7 +29,7 @@ function VisualLearner() {
 
   return (
     <>
-      <Header image="/VisualLearning.jpg" title="DLA WZROKOWCÓW I SŁUCHOWCÓW"  subtitle="Dopasuj naukę do swojego stylu"/>
+      <Header image={VisualLearning} title="DLA WZROKOWCÓW I SŁUCHOWCÓW"  subtitle="Dopasuj naukę do swojego stylu"/>
       <MainBox>
         <Container
           id="main"
@@ -68,7 +72,7 @@ function VisualLearner() {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/VisualDesk.jpg" />
+                <ImageItem image={VisualDesk}/>
               </FadeIn>
             </Grid>
             <Grid size={12}>
@@ -126,7 +130,7 @@ function VisualLearner() {
 
             <Grid size={{ xs: 12, md: 7 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/AudioLearner.jpg" />
+                <ImageItem image={AudioLearning} />
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>

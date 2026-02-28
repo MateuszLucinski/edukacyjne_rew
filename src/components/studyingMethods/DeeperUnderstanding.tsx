@@ -10,11 +10,17 @@ import ImageItem from "../ui/ImageItem";
 import EmptySpace from "../ui/EmtpySpace";
 import MethodCards from "./MethodCards";
 
+import CalculatorNotebook from "../../assets/images/DeeperUnderstanding/CalculatorNotebook.jpg"
+import Interrogation from "../../assets/images/DeeperUnderstanding/Interrogation.jpg"
+import BookImages from "../../assets/images/DeeperUnderstanding/BookImages.jpg"
+import ThoughtMap from "../../assets/images/DeeperUnderstanding/ThoughtMap.jpg"
+import Feynman from "../../assets/images/DeeperUnderstanding/Feynman.jpg"
+
 function DeeperUnderstanding() {
   return (
     <>
       <Header
-        image="/CalculatorNotebook.jpg"
+        image={CalculatorNotebook}
         title="METODY POGŁĘBIAJĄCE ZROZUMIENIE"
         subtitle="Zrozum więcej, ucz się głębiej"
       />
@@ -44,7 +50,7 @@ function DeeperUnderstanding() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Feynman.jpg" />
+                <ImageItem image={Feynman}/>
               </FadeIn>
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
@@ -133,7 +139,7 @@ function DeeperUnderstanding() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/Interrogation.jpg" />
+                <ImageItem image={Interrogation}/>
               </FadeIn>
             </Grid>
 
@@ -148,7 +154,7 @@ function DeeperUnderstanding() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/BookImages.jpg" />
+                <ImageItem image={BookImages} />
               </FadeIn>
             </Grid>
 
@@ -228,7 +234,7 @@ function DeeperUnderstanding() {
             </Grid>
             <Grid size={{ xs: 12, md: 5 }}>
               <FadeIn delay={100}>
-                <ImageItem image="/ThoughtMap.jpg" />
+                <ImageItem image={ThoughtMap} />
               </FadeIn>
             </Grid>
             <EmptySpace />
