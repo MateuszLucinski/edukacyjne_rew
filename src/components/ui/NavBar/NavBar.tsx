@@ -17,6 +17,7 @@ import MethodList from "./MethodList";
 import { useState } from "react";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import Icon from "../Icon";
+import web_logo from "../../../assets/images/Ui/web_logo.png"
 
 function NavBar() {
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
@@ -67,7 +68,7 @@ function NavBar() {
     <>
       <AppBar position="fixed" color="secondary">
         <Toolbar sx={{ gap: 2 }}>
-          <Icon src="edukacyjne_rew/logo.png" alt="Our website logo" />
+          <Icon src={web_logo} alt="Our website logo" />
           <Typography variant="h5" sx={{ flexGrow: 1 }}>
             Edukacyjne rewolucje
           </Typography>
