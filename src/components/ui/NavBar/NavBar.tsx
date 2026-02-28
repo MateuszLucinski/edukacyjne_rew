@@ -31,35 +31,35 @@ function NavBar() {
   const darwerLinks = [
     {
       text: "STRONA GŁÓWNA",
-      link: "/edukacyjne_rew",
+      link: "/",
     },
     {
       text: "OTOCZENIE DO NAUKI",
-      link: "/edukacyjne_rew/studying-space",
+      link: "studying-space",
     },
     {
       text: "DLA WZORKOWCÓW I SŁUCHOWCÓW",
-      link: "/edukacyjne_rew/visual-learner",
+      link: "visual-learner",
     },
     {
       text: "NAUKA DŁUGOTERMINOWA",
-      link: "/edukacyjne_rew/long-term",
+      link: "long-term",
     },
     {
       text: "METODY POGŁĘBIAJĄCE ZROZUMIENIE",
-      link: "/edukacyjne_rew/deeper-understanding",
+      link: "deeper-understanding",
     },
     {
       text: "NAUKA „NA OSTATNIĄ CHWILĘ”",
-      link: "/edukacyjne_rew/last-minute",
+      link: "last-minute",
     },
     {
       text: "NAUKA W MIĘDZYCZASIE",
-      link: "/edukacyjne_rew/meantime",
+      link: "meantime",
     },
     {
       text: "METODY WSPOMAGAJĄCE NAUKĘ",
-      link: "/edukacyjne_rew/studying-heplers",
+      link: "studying-heplers",
     },
   ];
 
@@ -67,7 +67,7 @@ function NavBar() {
     <>
       <AppBar position="fixed" color="secondary">
         <Toolbar sx={{ gap: 2 }}>
-          <Icon src="/edukacyjne_rew/logo.png" alt="Our website logo"/>
+          <Icon src="/logo.png" alt="Our website logo"/>
           <Typography variant="h5" sx={{ flexGrow: 1 }}>
             Edukacyjne rewolucje
           </Typography>
@@ -80,13 +80,13 @@ function NavBar() {
 
           {!isMobile && (
             <>
-              <Link to="/edukacyjne_rew">
+              <Link to="/">
                 <Button color="inherit">Strona główna</Button>
               </Link>
-              <Link to="/edukacyjne_rew/studying-space">
+              <Link to="studying-space">
                 <Button color="inherit">Otoczenie do nauki</Button>
               </Link>
-              <Link to="/edukacyjne_rew/visual-learner">
+              <Link to="visual-learner">
                 <Button color="inherit">Dla wzorkowców i słuchowców</Button>
               </Link>
               <MethodList />
