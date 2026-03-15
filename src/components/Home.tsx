@@ -38,9 +38,9 @@ function Home() {
                     <Stack spacing={3}>
                       <Typography variant="h4">NASZ CEL</Typography>
                       <Typography>
-                        Magiczne duszki stworzyły tą stronę by pomóc Wam w nauce
+                        Magiczne duszki stworzyły tę stronę by pomóc Wam w nauce
                         oraz jako projekt Zwolnieni z teorii (ale to tak tylko
-                        dodatkowo). Wiemy, że nauka gdy Ci się nie chce to jedna
+                        dodatkowo). Wiemy, że nauka, gdy Ci się nie chce, to jedna
                         z najbardziej wymęczających rzeczy.
                       </Typography>
                       <Typography>
